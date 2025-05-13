@@ -1,40 +1,74 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Навигационные карты знаний</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-
-<!-- Карта 1 -->
 <div class="knowledge-map">
-    <h1><i class="fas fa-laptop-code"></i> Информационные системы</h1>
-    
-    <div class="section">
-        <h2><i class="fas fa-gamepad"></i> Разработка игр</h2>
-        <div class="topic">
-            <h3><i class="fas fa-network-wired"></i> Сетевое программирование</h3>
-            <p>Создание многопользовательских игр</p>
-        </div>
+  <h1>Кибербезопасность</h1>
+
+  <div class="section">
+    <h2>Криптография</h2>
+    <div class="topic">
+      <h3>Симметричное шифрование</h3>
+      <p>Алгоритмы: AES-256, DES. Используется для быстрого шифрования больших объемов данных</p>
     </div>
+    <div class="topic">
+      <h3>Асимметричное шифрование</h3>
+      <p>RSA, ECC. Применяется в SSL/TLS и цифровых подписях</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Защита сетей</h2>
+    <div class="topic">
+      <h3>Firewall</h3>
+      <p>Межсетевые экраны для фильтрации трафика (Cisco ASA, pfSense)</p>
+    </div>
+  </div>
 </div>
 
-<!-- Карта 2 -->
+
+
 <div class="knowledge-map">
-    <h1><i class="fas fa-shield-alt"></i> Кибербезопасность</h1>
-    
-    <div class="section">
-        <h2><i class="fas fa-lock"></i> Криптография</h2>
-        <div class="topic">
-            <h3><i class="fas fa-key"></i> Шифрование</h3>
-            <p>Алгоритмы AES, RSA</p>
-        </div>
+  <h1>Мобильная разработка</h1>
+
+  <div class="section">
+    <h2>Android</h2>
+    <div class="topic">
+      <h3>Kotlin</h3>
+      <p>Стандартный язык для разработки с 2019 года. Поддержка coroutines</p>
     </div>
+    <div class="topic">
+      <h3>Jetpack Compose</h3>
+      <p>Современный декларативный UI-фреймворк</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>iOS</h2>
+    <div class="topic">
+      <h3>SwiftUI</h3>
+      <p>Фреймворк для создания интерфейсов с 2019 года</p>
+    </div>
+  </div>
 </div>
 
-<script src="scripts/app.js"></script>
-</body>
-</html>
+
+<div class="knowledge-map">
+  <h1>Базы данных</h1>
+
+  <div class="section">
+    <h2>Реляционные СУБД</h2>
+    <div class="topic">
+      <h3>PostgreSQL</h3>
+      <p>Поддержка JSON, оконные функции, расширения</p>
+    </div>
+    <div class="topic">
+      <h3>Нормализация</h3>
+      <p>Правила 1NF, 2NF, 3NF для проектирования схем</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>NoSQL</h2>
+    <div class="topic">
+      <h3>MongoDB</h3>
+      <p>Документоориентированная БД с агрегационными pipeline</p>
+    </div>
+  </div>
+</div>
